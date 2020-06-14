@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+.gif {
+  height: 250px;
+  width: 250px;
+  animation: zoomIn 1s;
+}
+@keyframes zoomIn {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}

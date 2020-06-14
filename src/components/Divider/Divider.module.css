@@ -1,0 +1,9 @@
+.horizontalDivider {
+  height: 2px;
+  background-color: rgb(189, 181, 181);
+  box-shadow: var(--line-shadow-dark);
+}
+.verticalDivider {
+  width: 2px;
+  background-color: rgb(189, 181, 181);
+}

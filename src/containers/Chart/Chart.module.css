@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+  width: auto;
+  max-width: 900px;
+  margin: auto;
+  animation: slideFromRight 2s;
+}
+@keyframes slideFromRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

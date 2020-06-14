@@ -1,0 +1,21 @@
+.container {
+  font-family: var(--normal-heading-font-family);
+  font-size: var(--normal-title-font-size);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.logos {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}

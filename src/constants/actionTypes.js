@@ -1,0 +1,11 @@
+//stock data
+
+export const GET_STOCK_DATA_START = 'GET_STOCK_DATA_START';
+export const GET_STOCK_DATA_SUCCESS = 'GET_STOCK_DATA_SUCCESS';
+export const GET_STOCK_DATA_FAIL = 'GET_STOCK_DATA_FAIL';
+
+//nifty index data
+
+export const GET_NIFTY_DATA_START = 'GET_NIFTY_DATA_START';
+export const GET_NIFTY_DATA_SUCCESS = 'GET_NIFTY_DATA_SUCCESS';
+export const GET_NIFTY_DATA_FAIL = 'GET_NIFTY_DATA_FAIL';

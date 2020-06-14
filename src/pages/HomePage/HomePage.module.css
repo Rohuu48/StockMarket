@@ -1,0 +1,11 @@
+.charts {
+  animation: slideIn 2s;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
