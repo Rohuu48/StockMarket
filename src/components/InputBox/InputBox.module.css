@@ -19,3 +19,12 @@
   width: 100px;
   margin: 5px;
 }
+.heading {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+}
+.subheading {
+  font-size: var(--subheading-font-size);
+  margin: 10px auto;
+  text-decoration: underline;
+}

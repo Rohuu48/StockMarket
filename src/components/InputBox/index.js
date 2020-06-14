@@ -8,7 +8,13 @@ import styles from './InputBox.module.css';
 const InputBox = ({ handleChange }) => {
   return (
     <div className={styles.container}>
-      <span> SELECT THE COMPANY OF YOUR CHOICE:</span>
+      <span className={styles.heading}>
+        CHECK THE PRESENT STOCK MARKET SCENARIO!!
+      </span>
+      <span className={styles.subheading}>
+        {' '}
+        SELECT THE COMPANY OF YOUR CHOICE:
+      </span>
       <div className={styles.logos}>
         <div onClick={() => handleChange('IBM')}>
           <img className={styles.image} src={IBM_LOGO} />
